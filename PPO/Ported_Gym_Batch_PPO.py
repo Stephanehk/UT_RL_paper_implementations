@@ -14,6 +14,7 @@ n_epochs = 80
 n_batches = 1
 clip_val = 0.2
 lr = 0.0003
+update_timestep = 4000
 norm_adv = True
 norm_return = False
 
@@ -145,23 +146,7 @@ class Memory():
             self.advantages = (self.advantages-np.array(self.advantages).mean())/(np.array(self.advantages).std() + 1e-5)
         if norm_return:
             self.returns = (self.returns-np.array(self.returns).mean())/(np.array(self.returns).std() + 1e-5)
-        #------------------------------MC GAE---------------------------------------------------------------------------
-        # #format reward
-        # discounted_reward = 0
-        # for i in range (len(self.rewards)):
-        #     if self.terminals[len(self.rewards)-1-i]:
-        #         discounted_reward = 0
-        #     self.rewards[len(self.rewards)-1-i] = self.rewards[len(self.rewards)-1-i] + (gamma*discounted_reward)
-        #     discounted_reward = self.rewards[len(self.rewards)-1-i]
-
-        # self.returns = torch.tensor(self.rewards)
-        # self.returns = (self.returns-self.returns.mean())/(self.returns.std() + + 1e-5)
-        # self.values = torch.tensor(self.values)
-        # self.advantages = self.returns - self.values
-
-        # self.returns = self.returns.tolist()
-        # self.advantages = self.advantages.tolist()
-        #------------------------------------------------------------------------------------------------------------------
+         #------------------------------TD Lambda GAE---------------------------------------------------------------------------
         returns_res = []
         states_res = []
         actions_res = []
@@ -196,13 +181,8 @@ def train_PPO():
 
     env = gym.make("LunarLanderContinuous-v2")
     n_iters = 2000
-    n_epochs = 100
     max_steps = 1500
-    update_timestep = 4000
 
-    gamma = 0.99
-    lr = 0.0001
-    clip_val = 0.2
     avg_t = 0
     avg_r = 0
     total_timesteps = 1
