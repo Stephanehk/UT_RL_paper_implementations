@@ -4,6 +4,9 @@ import torch
 import torch.nn as nn
 from torch.optim import Adam
 from torch.distributions import MultivariateNormal
+import matplotlib.pyplot as plt
+import copy
+
 import wandb
 import math
 import random
@@ -16,7 +19,7 @@ clip_val = 0.2
 lr = 0.0003
 update_timestep = 4000
 norm_adv = True
-norm_return = False
+norm_return = True
 
 class PPO_Agent(nn.Module):
     def __init__(self, state_dim, action_dim, action_std):
@@ -126,6 +129,7 @@ class Memory():
 
     def reservoir_sample(self,k):
         #------------------------------TD Lambda GAE---------------------------------------------------------------------------
+        self.terminals_ = [0 if self.terminals[i] == True else 1 for i in range (len(self.terminals))]
         #self.returns = [0 for i in range(len(self.rewards))]
         deltas = [0 for i in range(len(self.rewards))]
         self.advantages = [0 for i in range(len(self.rewards))]
@@ -133,11 +137,11 @@ class Memory():
         prev_value = 0
         prev_advantage = 0
         for i in reversed(range(len(self.rewards))):
-            #self.returns[i] = self.rewards[i] + self.gamma * prev_return * self.terminals[i]
-            #prev_return = self.returns[i]
+            # self.returns[i] = self.rewards[i] + gamma * prev_return * self.terminals_[i]
+            # prev_return = self.returns[i]
         
-            deltas[i] = self.rewards[i] + gamma * prev_value * self.terminals[i] - self.values[i]
-            self.advantages[i] = deltas[i] + gamma * lam * prev_advantage * self.terminals[i]
+            deltas[i] = self.rewards[i] + gamma * prev_value * self.terminals_[i] - self.values[i]
+            self.advantages[i] = deltas[i] + gamma * lam * prev_advantage * self.terminals_[i]
             prev_value = self.values[i]
             prev_advantage = self.advantages[i]
 
@@ -146,7 +150,7 @@ class Memory():
             self.advantages = (self.advantages-np.array(self.advantages).mean())/(np.array(self.advantages).std() + 1e-5)
         if norm_return:
             self.returns = (self.returns-np.array(self.returns).mean())/(np.array(self.returns).std() + 1e-5)
-         #------------------------------TD Lambda GAE---------------------------------------------------------------------------
+
         returns_res = []
         states_res = []
         actions_res = []

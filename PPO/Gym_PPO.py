@@ -172,7 +172,7 @@ def train_PPO():
             env.render()
             a, a_log_prob = prev_policy.choose_action(s)
             a = a.detach().numpy()[0]
-            a = np.clip(a,1,-1)
+           # a = np.clip(a,1,-1)
             s_prime, reward, done, info = env.step(a)
 
             memory.add(format_(s),format_(a), a_log_prob,reward,s_prime,done)
