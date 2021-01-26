@@ -8,6 +8,15 @@ import wandb
 import math
 import random
 
+gamma = 0.99
+lam = 0.95
+n_epochs = 80
+n_batches = 1
+clip_val = 0.2
+lr = 0.0003
+norm_adv = True
+norm_return = False
+
 class PPO_Agent(nn.Module):
     def __init__(self, state_dim, action_dim, action_std):
         super(PPO_Agent, self).__init__()
@@ -29,13 +38,8 @@ class PPO_Agent(nn.Module):
                 nn.Linear(32, 1)
                 )
         self.action_var = torch.full((action_dim,), action_std*action_std)
-        self.gamma = 0.99
-        self.lam = 0.95
-        self.n_epochs = 80
-        self.n_batches = 1
-        self.clip_val = 0.2
 
-        self.optimizer = Adam(self.parameters(), lr=0.0001)
+        self.optimizer = Adam(self.parameters(), lr=lr)
         self.mse = nn.MSELoss()
 
     def choose_action(self,state):
@@ -64,19 +68,19 @@ class PPO_Agent(nn.Module):
 
     def train_(self,memory,prev_policy):
         print ("updating")
-        for b in range (self.n_batches):
+        for b in range (n_batches):
             states,actions,actions_log_probs,returns,terminals,advantages= memory.reservoir_sample(len(memory.rewards))
 
             actions_log_probs = torch.FloatTensor(actions_log_probs)
             advantages = torch.FloatTensor(advantages)
             returns = torch.FloatTensor(returns)
             #train PPO
-            for i in range(self.n_epochs):
+            for i in range(n_epochs):
                 current_action_log_probs, state_values, entropies = self.get_training_params(states,actions)
 
                 policy_ratio = torch.exp(current_action_log_probs - actions_log_probs.detach())
                 update1 = (policy_ratio*advantages).float()
-                update2 = (torch.clamp(policy_ratio,1-self.clip_val, 1+self.clip_val) * advantages).float()
+                update2 = (torch.clamp(policy_ratio,1-clip_val, 1+clip_val) * advantages).float()
                 loss = -torch.min(update1,update2) + 0.5*self.mse(state_values.float(),returns.float()) - 0.01*entropies
 
                 self.optimizer.zero_grad()
@@ -96,9 +100,6 @@ class Memory():
         self.states_p = []
         self.terminals = []
         self.values = []
-
-        self.gamma = 0.99
-        self.lam = 0.95
 
     def add (self,s,a,a_log_prob,r,s_prime,t,v):
         self.states.append(s)
@@ -123,54 +124,43 @@ class Memory():
         self.values.clear()
 
     def reservoir_sample(self,k):
-        #------------------------------METHOD 0----------------------------------------------------------------------------------
-        # T = len(self.rewards)
-        # td_errors = [self.rewards[t] + self.gamma * self.values[t + 1] - self.values[t] for t in range(T - 1)]
-        # td_errors += [self.rewards[T - 1] + self.gamma * 0.0 - self.values[T - 1]]  # handle the terminal state.
-        #
-        # # Estimate advantage backwards.
-        # self.advantages = []
-        # adv_so_far = 0.0
-        # for delta in td_errors[::-1]:
-        #     adv_so_far = delta + self.gamma * self.lam * adv_so_far
-        #     self.advantages.append(adv_so_far)
-        # self.advantages = self.advantages[::-1]
-        #
-        # # add into the memory buffer
-        # self.returns = np.array(self.advantages) + np.array(self.values)
-        #------------------------------METHOD 1 (GAE 0)---------------------------------------------------------------------------
-        # self.returns = [0 for i in range(len(self.rewards))]
-        # deltas = [0 for i in range(len(self.rewards))]
-        # self.advantages = [0 for i in range(len(self.rewards))]
-        # prev_return = 0
-        # prev_value = 0
-        # prev_advantage = 0
-        # for i in reversed(range(len(self.rewards))):
-        #     self.returns[i] = self.rewards[i] + self.gamma * prev_return * self.terminals[i]
-        #     prev_return = self.returns[i]
-        #
-        #     deltas[i] = self.rewards[i] + self.gamma * prev_value * self.terminals[i] - self.values[i]
-        #     self.advantages[i] = deltas[i] + self.gamma * self.lam * prev_advantage * self.terminals[i]
-        #     prev_value = self.values[i]
-        #     prev_advantage = self.advantages[i]
-        #
-        # self.returns = (self.returns-np.array(self.returns).mean())/(np.array(self.returns).std() + + 1e-5)
-        #------------------------------METHOD 2 (GAE 1)---------------------------------------------------------------------------
-        #format reward
-        discounted_reward = 0
-        for i in range (len(self.rewards)):
-            if self.terminals[len(self.rewards)-1-i]:
-                discounted_reward = 0
-            self.rewards[len(self.rewards)-1-i] = self.rewards[len(self.rewards)-1-i] + (self.gamma*discounted_reward)
-            discounted_reward = self.rewards[len(self.rewards)-1-i]
+        #------------------------------TD Lambda GAE---------------------------------------------------------------------------
+        #self.returns = [0 for i in range(len(self.rewards))]
+        deltas = [0 for i in range(len(self.rewards))]
+        self.advantages = [0 for i in range(len(self.rewards))]
+        prev_return = 0
+        prev_value = 0
+        prev_advantage = 0
+        for i in reversed(range(len(self.rewards))):
+            #self.returns[i] = self.rewards[i] + self.gamma * prev_return * self.terminals[i]
+            #prev_return = self.returns[i]
+        
+            deltas[i] = self.rewards[i] + gamma * prev_value * self.terminals[i] - self.values[i]
+            self.advantages[i] = deltas[i] + gamma * lam * prev_advantage * self.terminals[i]
+            prev_value = self.values[i]
+            prev_advantage = self.advantages[i]
 
-        self.returns = torch.tensor(self.rewards)
-        self.returns = (self.returns-self.returns.mean())/(self.returns.std() + + 1e-5)
-        self.values = torch.tensor(self.values)
-        self.advantages = self.returns - self.values
+        self.returns = np.array(self.advantages) - np.array(self.values)
+        if norm_adv:
+            self.advantages = (self.advantages-np.array(self.advantages).mean())/(np.array(self.advantages).std() + 1e-5)
+        if norm_return:
+            self.returns = (self.returns-np.array(self.returns).mean())/(np.array(self.returns).std() + 1e-5)
+        #------------------------------MC GAE---------------------------------------------------------------------------
+        # #format reward
+        # discounted_reward = 0
+        # for i in range (len(self.rewards)):
+        #     if self.terminals[len(self.rewards)-1-i]:
+        #         discounted_reward = 0
+        #     self.rewards[len(self.rewards)-1-i] = self.rewards[len(self.rewards)-1-i] + (gamma*discounted_reward)
+        #     discounted_reward = self.rewards[len(self.rewards)-1-i]
 
-        self.returns = self.returns.tolist()
-        self.advantages = self.advantages.tolist()
+        # self.returns = torch.tensor(self.rewards)
+        # self.returns = (self.returns-self.returns.mean())/(self.returns.std() + + 1e-5)
+        # self.values = torch.tensor(self.values)
+        # self.advantages = self.returns - self.values
+
+        # self.returns = self.returns.tolist()
+        # self.advantages = self.advantages.tolist()
         #------------------------------------------------------------------------------------------------------------------
         returns_res = []
         states_res = []
