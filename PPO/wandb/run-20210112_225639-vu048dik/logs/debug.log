@@ -1,0 +1,65 @@
+2021-01-12 22:56:39,134 INFO    MainThread:3971 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-12 22:56:39,134 INFO    MainThread:3971 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-12 22:56:39,134 INFO    MainThread:3971 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-12 22:56:39,134 INFO    MainThread:3971 [wandb_init.py:_log_setup():303] Logging user logs to /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20210112_225639-vu048dik/logs/debug.log
+2021-01-12 22:56:39,135 INFO    MainThread:3971 [wandb_init.py:_log_setup():304] Logging internal logs to /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20210112_225639-vu048dik/logs/debug-internal.log
+2021-01-12 22:56:40,152 INFO    MainThread:3971 [wandb_run.py:_console_start():1237] atexit reg
+2021-01-12 22:56:40,153 INFO    MainThread:3971 [wandb_run.py:_redirect():1104] redirect: SettingsConsole.REDIRECT
+2021-01-12 22:56:40,154 INFO    MainThread:3971 [wandb_run.py:_redirect():1107] Redirecting console.
+2021-01-12 22:56:40,154 INFO    MainThread:3971 [redirect.py:install():204] install start
+2021-01-12 22:56:40,154 INFO    MainThread:3971 [redirect.py:install():219] install stop
+2021-01-12 22:56:40,155 INFO    MainThread:3971 [redirect.py:install():204] install start
+2021-01-12 22:56:40,155 INFO    MainThread:3971 [redirect.py:install():219] install stop
+2021-01-12 22:56:40,155 INFO    MainThread:3971 [wandb_run.py:_redirect():1151] Redirects installed.
+2021-01-12 22:56:40,168 INFO    MainThread:3971 [wandb_config.py:__setitem__():135] config set learning_rate = 0.0001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fba0332f470>>
+2021-01-12 22:56:40,168 INFO    MainThread:3971 [wandb_run.py:_config_callback():549] config_cb learning_rate 0.0001 {'_wandb': {'cli_version': '0.10.12', 'python_version': '3.6.12', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'torch'}, 'learning_rate': 0.0001}
+2021-01-12 22:56:40,171 INFO    MainThread:3971 [wandb_watch.py:watch():35] Watching
+2021-01-12 22:56:40,923 INFO    MainThread:3971 [wandb_run.py:_atexit_cleanup():1207] got exitcode: 1
+2021-01-12 22:56:40,924 INFO    MainThread:3971 [wandb_run.py:_restore():1179] restore
+2021-01-12 22:56:40,924 INFO    MainThread:3971 [redirect.py:uninstall():223] uninstall start
+2021-01-12 22:56:40,924 INFO    MainThread:3971 [redirect.py:_stop():278] _stop: stdout
+2021-01-12 22:56:40,925 INFO    stdout    :3971 [redirect.py:_pipe_relay():120] relay done saw last write: stdout
+2021-01-12 22:56:40,925 INFO    stdout    :3971 [redirect.py:_pipe_relay():136] relay done done: stdout
+2021-01-12 22:56:40,925 INFO    MainThread:3971 [redirect.py:_stop():284] _stop closed: stdout
+2021-01-12 22:56:40,925 INFO    MainThread:3971 [redirect.py:_stop():290] _stop joined: stdout
+2021-01-12 22:56:40,925 INFO    MainThread:3971 [redirect.py:_stop():292] _stop rd closed: stdout
+2021-01-12 22:56:40,925 INFO    MainThread:3971 [redirect.py:uninstall():227] uninstall done
+2021-01-12 22:56:40,925 INFO    MainThread:3971 [redirect.py:uninstall():223] uninstall start
+2021-01-12 22:56:40,925 INFO    MainThread:3971 [redirect.py:_stop():278] _stop: stderr
+2021-01-12 22:56:40,925 INFO    MainThread:3971 [redirect.py:_stop():284] _stop closed: stderr
+2021-01-12 22:56:40,925 INFO    stderr    :3971 [redirect.py:_pipe_relay():120] relay done saw last write: stderr
+2021-01-12 22:56:40,926 INFO    stderr    :3971 [redirect.py:_pipe_relay():136] relay done done: stderr
+2021-01-12 22:56:40,926 INFO    MainThread:3971 [redirect.py:_stop():290] _stop joined: stderr
+2021-01-12 22:56:40,926 INFO    MainThread:3971 [redirect.py:_stop():292] _stop rd closed: stderr
+2021-01-12 22:56:40,926 INFO    MainThread:3971 [redirect.py:uninstall():227] uninstall done
+2021-01-12 22:56:40,928 INFO    MainThread:3971 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "8dd1323630304254a84c50333064911f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 500
+      total_bytes: 500
+    }
+  }
+}
+
+2021-01-12 22:56:42,932 INFO    MainThread:3971 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "63d2843b196d46bba56a364bf06ec540"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 4099
+      total_bytes: 4099
+    }
+  }
+}
+
+2021-01-12 22:56:44,045 INFO    MainThread:3971 [wandb_run.py:_show_files():1536] logging synced files
+2021-01-12 22:56:44,047 INFO    MainThread:3971 [internal.py:handle_exit():138] Internal process exited

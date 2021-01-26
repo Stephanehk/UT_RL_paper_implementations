@@ -1,0 +1,21 @@
+Episode reward: -158.04810213022247
+Episode reward: -406.0683874832871
+Episode reward: -158.41832939913692
+Traceback (most recent call last):
+  File "Gym_PPO.py", line 174, in <module>
+    train_PPO()
+  File "Gym_PPO.py", line 105, in train_PPO
+    a, a_log_prob = prev_policy.choose_action(s)
+  File "Gym_PPO.py", line 36, in choose_action
+    mean = self.actor(state)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 93, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/nn/functional.py", line 1690, in linear
+    ret = torch.addmm(bias, input, weight.t())
+KeyboardInterrupt

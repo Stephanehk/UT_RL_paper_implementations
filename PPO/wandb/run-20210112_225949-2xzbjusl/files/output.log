@@ -1,0 +1,26 @@
+updating
+/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/nn/modules/loss.py:446: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Episode reward: -140.29489522102187
+Episode reward: -219.20682053691087
+Episode reward: -135.532266541124
+Episode reward: -89.9278860900761
+Episode reward: -147.99290171786433
+Episode reward: -152.82404967670126
+Episode reward: -85.17325788372122
+Traceback (most recent call last):
+  File "Gym_PPO.py", line 173, in <module>
+    train_PPO()
+  File "Gym_PPO.py", line 104, in train_PPO
+    env.render()
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/gym/core.py", line 240, in render
+    return self.env.render(mode, **kwargs)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/gym/envs/box2d/lunar_lander.py", line 376, in render
+    return self.viewer.render(return_rgb_array=mode == 'rgb_array')
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/gym/envs/classic_control/rendering.py", line 112, in render
+    geom.render()
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/gym/envs/classic_control/rendering.py", line 180, in render
+    self.render1()
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/gym/envs/classic_control/rendering.py", line 250, in render1
+    elif len(self.v)  > 4 : glBegin(GL_POLYGON)
+KeyboardInterrupt

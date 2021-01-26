@@ -1,0 +1,7 @@
+Episode reward: -25.46708252051352
+Traceback (most recent call last):
+  File "PPO.py", line 148, in <module>
+    train_PPO()
+  File "PPO.py", line 120, in train_PPO
+    wandb.log({"episode_reward": math.abs(episode_reward)})
+AttributeError: module 'math' has no attribute 'abs'

@@ -1,0 +1,284 @@
+Episode reward: -79.37350402626299
+Episode reward: -373.01156194781765
+Episode reward: -200.4072808294609
+Episode reward: -405.39300717887636
+Episode reward: -520.0397608225614
+Episode reward: -393.62422166129784
+Episode reward: -297.8165997302792
+Episode reward: -329.8269072123337
+Episode reward: -302.2817669416536
+Episode reward: -343.10825381355255
+Episode reward: -139.79093339799027
+Episode reward: -221.64352426124378
+Episode reward: -188.5406455571566
+Episode reward: -112.7112062644221
+Episode reward: -133.4919323631497
+Episode reward: -241.42448679595182
+Episode reward: -347.5671299215853
+Episode reward: -567.6299832283096
+Episode reward: -331.78495937692566
+Episode reward: -298.9207743238376
+Episode reward: -258.08167740428127
+Episode reward: -390.31415032114364
+Episode reward: -105.33614262459687
+Episode reward: -266.64081706971876
+Episode reward: -160.8788067465194
+Episode reward: -363.5240847812901
+Episode reward: -161.93850482741777
+Episode reward: -145.07463451714335
+Episode reward: -419.65691557463356
+Episode reward: -124.25702996520252
+Episode reward: -408.6162902489807
+Episode reward: -342.36021081006777
+Episode reward: -418.7912059204128
+Episode reward: -270.3177464111778
+updating
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+torch.Size([4000, 8])
+torch.Size([4000, 2])
+Episode reward: -174.56467937185897
+Episode reward: -207.51742420237747
+Episode reward: -162.4247265205401
+Episode reward: -157.17873532425205
+Episode reward: -274.40389034983116
+Episode reward: -94.71344071663876
+Episode reward: -174.89345650660562
+Episode reward: -66.13077000964473
+Episode reward: -214.39832488241967
+Episode reward: -124.5960776793622
+Episode reward: -196.00556928578237
+Episode reward: -76.47547430945195
+Episode reward: -342.2495625498631
+Episode reward: -116.29183994132228
+Episode reward: -250.4099289131954
+Episode reward: -90.6388249676646
+Episode reward: -85.74663587661564
+Episode reward: -164.87468949155445
+Episode reward: -413.0027316191183
+Episode reward: -64.68768366345857
+Episode reward: -277.23040104510426
+Episode reward: -161.4342032945005
+Episode reward: -184.62527493090084
+Episode reward: -295.520068443819
+Episode reward: -101.17328060354542
+Episode reward: -156.90261817511367
+Episode reward: -155.4988744907758
+Episode reward: -260.4633394163403
+Episode reward: -295.5682991500802
+Episode reward: -330.1316788545056
+Episode reward: -222.18748592976908
+Episode reward: -176.04054573703456
+Episode reward: -353.6222971372923
+Episode reward: -403.74828150338374
+Episode reward: -111.17148795438936
+Episode reward: -232.32954989063452
+Episode reward: -355.71553032749216
+Traceback (most recent call last):
+  File "Gym_PPO.py", line 177, in <module>
+    train_PPO()
+  File "Gym_PPO.py", line 107, in train_PPO
+    env.render()
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/gym/core.py", line 240, in render
+    return self.env.render(mode, **kwargs)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/gym/envs/box2d/lunar_lander.py", line 376, in render
+    return self.viewer.render(return_rgb_array=mode == 'rgb_array')
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/gym/envs/classic_control/rendering.py", line 104, in render
+    glClearColor(1,1,1,1)
+KeyboardInterrupt

@@ -1,0 +1,15 @@
+2
+1
+Episode reward: -24.988654331245023
+Traceback (most recent call last):
+  File "Gym_PPO.py", line 150, in <module>
+    train_PPO()
+  File "Gym_PPO.py", line 132, in train_PPO
+    current_action_log_probs, state_values, entropies = policy.get_training_params(states,actions)
+  File "Gym_PPO.py", line 53, in get_training_params
+    action_log_prob = gauss_dist.log_prob(action)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/distributions/multivariate_normal.py", line 208, in log_prob
+    M = _batch_mahalanobis(self._unbroadcasted_scale_tril, diff)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/distributions/multivariate_normal.py", line 55, in _batch_mahalanobis
+    flat_x = bx.reshape(-1, flat_L.size(0), n)  # shape = c x b x n
+KeyboardInterrupt

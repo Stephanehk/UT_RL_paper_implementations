@@ -1,0 +1,1993 @@
+tensor([[0.1581, 0.0607]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/nn/modules/loss.py:446: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+Episode reward: -133.72051213715298
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+Episode reward: -133.20303530094668
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+Episode reward: -142.24633842802663
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+Episode reward: -140.17964682579546
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+Episode reward: -129.185995357319
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+Episode reward: -90.42512291949524
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+Episode reward: -136.43594661028033
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+Traceback (most recent call last):
+  File "Gym_PPO.py", line 175, in <module>
+    train_PPO()
+  File "Gym_PPO.py", line 108, in train_PPO
+    a, a_log_prob = prev_policy.choose_action(s)
+  File "Gym_PPO.py", line 41, in choose_action
+    action_log_prob = gauss_dist.log_prob(action)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/distributions/multivariate_normal.py", line 208, in log_prob
+    M = _batch_mahalanobis(self._unbroadcasted_scale_tril, diff)
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/distributions/multivariate_normal.py", line 57, in _batch_mahalanobis
+    M_swap = torch.triangular_solve(flat_x_swap, flat_L, upper=False)[0].pow(2).sum(-2)  # shape = b x c
+KeyboardInterrupt

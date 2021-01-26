@@ -1,0 +1,16 @@
+tensor([[-0.0332, -0.0174]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/nn/modules/loss.py:446: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+tensor([[nan, nan]], grad_fn=<SelectBackward>)
+tensor([[0.2500, 0.2500]])
+
+
+Traceback (most recent call last):
+  File "Gym_PPO.py", line 172, in <module>
+    train_PPO()
+  File "Gym_PPO.py", line 114, in train_PPO
+    actions_log_probs.append(a_log_prob)
+AttributeError: 'Tensor' object has no attribute 'append'

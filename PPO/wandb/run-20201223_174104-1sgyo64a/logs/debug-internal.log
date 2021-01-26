@@ -1,0 +1,77 @@
+2020-12-23 17:41:05,228 INFO    MainThread:1623 [internal.py:wandb_internal():63] W&B internal server running at pid: 1623
+2020-12-23 17:41:05,230 DEBUG   HandlerThread:1623 [handler.py:handle_request():55] handle_request: check_version
+2020-12-23 17:41:05,230 INFO    WriterThread:1623 [datastore.py:open_for_write():76] open: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/run-1sgyo64a.wandb
+2020-12-23 17:41:05,231 DEBUG   SenderThread:1623 [sender.py:send():90] send: header
+2020-12-23 17:41:05,231 DEBUG   SenderThread:1623 [sender.py:send():90] send: request
+2020-12-23 17:41:05,231 DEBUG   SenderThread:1623 [sender.py:send_request():99] send_request: check_version
+2020-12-23 17:41:05,378 DEBUG   Thread-4  :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): pypi.org:443
+2020-12-23 17:41:05,579 DEBUG   Thread-4  :1623 [connectionpool.py:_make_request():393] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 52216
+2020-12-23 17:41:05,608 DEBUG   SenderThread:1623 [sender.py:send():90] send: run
+2020-12-23 17:41:05,610 DEBUG   SenderThread:1623 [git.py:repo():30] git repository is invalid
+2020-12-23 17:41:05,615 DEBUG   SenderThread:1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-23 17:41:05,922 DEBUG   SenderThread:1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-23 17:41:05,930 INFO    SenderThread:1623 [dir_watcher.py:__init__():165] watching files in: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files
+2020-12-23 17:41:05,930 INFO    SenderThread:1623 [sender.py:_start_run_threads():490] run started: 1sgyo64a with start time 1608763264
+2020-12-23 17:41:05,930 DEBUG   SenderThread:1623 [sender.py:send():90] send: summary
+2020-12-23 17:41:05,930 INFO    SenderThread:1623 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-23 17:41:05,931 DEBUG   HandlerThread:1623 [handler.py:handle_request():55] handle_request: run_start
+2020-12-23 17:41:05,934 DEBUG   HandlerThread:1623 [git.py:repo():30] git repository is invalid
+2020-12-23 17:41:06,052 DEBUG   SenderThread:1623 [sender.py:send():90] send: files
+2020-12-23 17:41:06,052 INFO    SenderThread:1623 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-12-23 17:41:06,055 DEBUG   HandlerThread:1623 [handler.py:handle_request():55] handle_request: status
+2020-12-23 17:41:06,055 DEBUG   SenderThread:1623 [sender.py:send():90] send: request
+2020-12-23 17:41:06,055 DEBUG   SenderThread:1623 [sender.py:send_request():99] send_request: status
+2020-12-23 17:41:06,058 DEBUG   Thread-11 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-23 17:41:06,058 DEBUG   SenderThread:1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-23 17:41:06,259 DEBUG   SenderThread:1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-23 17:41:06,259 DEBUG   Thread-11 :1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-23 17:41:06,263 DEBUG   SenderThread:1623 [sender.py:send():90] send: config
+2020-12-23 17:41:06,268 DEBUG   SenderThread:1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-23 17:41:06,440 DEBUG   Thread-11 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-23 17:41:06,620 DEBUG   SenderThread:1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-23 17:41:06,747 DEBUG   SenderThread:1623 [sender.py:send():90] send: history
+2020-12-23 17:41:06,747 DEBUG   SenderThread:1623 [sender.py:send():90] send: summary
+2020-12-23 17:41:06,747 INFO    SenderThread:1623 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-23 17:41:06,801 DEBUG   Thread-11 :1623 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/stephanehk/PPO_1/1sgyo64a/wandb-metadata.json?Expires=1608849666&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=HhmxfiGB5tpahcKHJa%2FVCImbzvk%2FY4uGsO8yDQPlTf4lY7W03zi7lb7MVO5YKJy%2FI4DQ0QYQRrtzOuWaovWi%2FYQp0%2FWgsK4vHCSqg0fcvfxD6U6G5BbUYi3K0CGE215RBDsipCHcXhsghJzirM7TeqAembxslLxRe2h83HY9bLEiyD8MkzefR4OKz0VmqAAxKBSP1mLjcF8uIfStIj6CksQhSiyAk5eyTlaxxQncATqiYvXVFDQXPa27BU0k2Z%2Bsmnldz%2BOgvdKhvfI%2Br1Lb2t8DBDbmvECAq%2Bcm01MaIV4W9C0ju9oD1u2Mto5riNL0cFxHixXWSboLA5cRvHftzw%3D%3D HTTP/1.1" 200 0
+2020-12-23 17:41:06,803 INFO    Thread-11 :1623 [upload_job.py:push():131] Uploaded file /var/folders/sc/0g316kdx28gdpzgzy1vkxhk00000gn/T/tmpxf1pua3uwandb/rzhirqn8-wandb-metadata.json
+2020-12-23 17:41:06,823 DEBUG   HandlerThread:1623 [handler.py:handle_request():55] handle_request: shutdown
+2020-12-23 17:41:06,823 INFO    HandlerThread:1623 [handler.py:finish():271] shutting down handler
+2020-12-23 17:41:06,934 INFO    Thread-8  :1623 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/config.yaml
+2020-12-23 17:41:06,934 INFO    Thread-8  :1623 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/wandb-metadata.json
+2020-12-23 17:41:06,934 INFO    Thread-8  :1623 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/requirements.txt
+2020-12-23 17:41:06,935 INFO    Thread-8  :1623 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/output.log
+2020-12-23 17:41:07,826 INFO    SenderThread:1623 [sender.py:finish():642] shutting down sender
+2020-12-23 17:41:07,826 INFO    SenderThread:1623 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-12-23 17:41:07,827 INFO    WriterThread:1623 [datastore.py:close():257] close: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/run-1sgyo64a.wandb
+2020-12-23 17:41:07,939 INFO    SenderThread:1623 [dir_watcher.py:finish():309] scan: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files
+2020-12-23 17:41:07,940 INFO    SenderThread:1623 [dir_watcher.py:finish():315] scan save: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/requirements.txt requirements.txt
+2020-12-23 17:41:07,940 INFO    SenderThread:1623 [dir_watcher.py:finish():315] scan save: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/output.log output.log
+2020-12-23 17:41:07,944 INFO    SenderThread:1623 [dir_watcher.py:finish():315] scan save: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/config.yaml config.yaml
+2020-12-23 17:41:07,945 INFO    SenderThread:1623 [dir_watcher.py:finish():315] scan save: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/wandb-summary.json wandb-summary.json
+2020-12-23 17:41:07,951 INFO    SenderThread:1623 [dir_watcher.py:finish():315] scan save: /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/wandb-metadata.json wandb-metadata.json
+2020-12-23 17:41:07,952 INFO    SenderThread:1623 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-23 17:41:07,952 INFO    SenderThread:1623 [file_pusher.py:join():174] waiting for file pusher
+2020-12-23 17:41:07,952 DEBUG   Thread-12 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-23 17:41:07,955 DEBUG   Thread-13 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-23 17:41:07,956 DEBUG   Thread-14 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-23 17:41:07,956 DEBUG   Thread-15 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-23 17:41:08,068 DEBUG   Thread-14 :1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-23 17:41:08,069 DEBUG   Thread-12 :1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-23 17:41:08,076 DEBUG   Thread-15 :1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-23 17:41:08,078 DEBUG   Thread-13 :1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-23 17:41:08,085 DEBUG   Thread-14 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-23 17:41:08,086 DEBUG   Thread-12 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-23 17:41:08,088 DEBUG   Thread-15 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-23 17:41:08,089 DEBUG   Thread-13 :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-23 17:41:08,373 DEBUG   Thread-12 :1623 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/stephanehk/PPO_1/1sgyo64a/requirements.txt?Expires=1608849668&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=pzmt5PF4P%2FCHGN2AAtPcClF31d4PJskFLAcv9MhoT4VDtr4Q6y3%2B2TRd0uvQlQNuivhFoXR%2B1q1f3X7%2FmMdhuxjiHz5vqNfWBI%2FSpnfsiwLIvDVxAzt6nXFl5kBk8EF8O9jSoKUxHyWD1MO%2BOfUAObP95O%2BM5N%2BdeVeSbo1E9yy1j3WAxExCKPNDkXvI6MEc2CIUqd5ux1HHJrSjoPSh02ntWvwrSKnFsU61LqMFXo6Ktqf%2BrY0BySGJlgcf3oF99pXrokFuOSKKjqXo0PrvKJGjMoyepgYEQaerh%2Be6XguWxRRC66kIZYAxb3KhGDH7S7GCCuuNOBh3UrcrlKpjyg%3D%3D HTTP/1.1" 200 0
+2020-12-23 17:41:08,377 INFO    Thread-12 :1623 [upload_job.py:push():131] Uploaded file /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/requirements.txt
+2020-12-23 17:41:08,409 DEBUG   Thread-13 :1623 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/stephanehk/PPO_1/1sgyo64a/output.log?Expires=1608849668&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=TtkaXZ%2B22s9Skx%2FmCq5JtgaaO%2B1inFKynTfAXXrJVyWyJblOfdP6EgoK%2Fi5ZYPhbkyuNju9Ar6fMx2pb8MUK8%2FPkdd4jD2hrzz4kyr5DuDYnvF6KT8hqV5%2FJH0OsqeBcQYKxVwsvym0JJySFAPynij3%2Bl%2Bil91o1PCb3vk0s1UHjoSaSmc0CF%2Bx1seYTGvFt5nUrlzHv202dG%2BqGMTK9pO63osc1k5pDdTd79LEVYIx1yoiVOd6O1xQRsC3siIuM%2BiElXkTki1qQIL4%2FHW8d7koL29TF25osihqaVvWf4vQpPhQEZpEWRsfpoEVg6Vf84M0gfgH7YTbjNMRBAsxW3A%3D%3D HTTP/1.1" 200 0
+2020-12-23 17:41:08,412 INFO    Thread-13 :1623 [upload_job.py:push():131] Uploaded file /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/output.log
+2020-12-23 17:41:08,413 DEBUG   Thread-14 :1623 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/stephanehk/PPO_1/1sgyo64a/config.yaml?Expires=1608849668&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=oCsOrpA2iWOFB0cu0zckpMwtqkc2Ru1us4MFiLKGufIcJgzQFQ%2F3m9qo6FbNuXsI%2ByZYCphtRybz62xo%2BHaYF5ieRH21rQIC4vgC6YlG705BTvMD9%2FSa8YYF43jaDcDHG91brC1TqDHfJ%2BasFk5Zz50CD4pIHVFmafEOA1WAGhZ5cqOYjxr8y3mkkmDEptR8k80BYS%2FiwpVtwVBf8D3QxsLhse%2FePo7hJXVcBmB3pwc%2F1SI1x1iSuNAREekRFTVaCGTGZRYOhCjNA7%2FHJBSbalrfk1nc0pesuruAzES5DGMYkFxtgQIJ%2Bln9M9LrEmNvoZFCwbvrrrG8O4cJmv%2FoWA%3D%3D HTTP/1.1" 200 0
+2020-12-23 17:41:08,415 INFO    Thread-14 :1623 [upload_job.py:push():131] Uploaded file /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/config.yaml
+2020-12-23 17:41:08,531 DEBUG   Thread-15 :1623 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/stephanehk/PPO_1/1sgyo64a/wandb-summary.json?Expires=1608849668&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=UPrdJKc96nweL6IRkcK7AUApDnLOtkynVEgJw3sT4OyudvXpSkHqGkDnW3oMUpaht%2Bb5JYQ6t2vhNtaX7hqbtIUmqU8PPhShmXXqzERVuBaUb%2BjoHebHQ0BTt3QOpjEhowrY2hW4JHJziqzyUWJB1EMYzguv%2FOz6jD8KHdtP8KaCFlq8L1cP%2BFzhhb464zSsPxm%2FncLsLlBkXBvoH99rYKTaicCqQILU%2BpfVU%2Bz45oSiieGj%2BNW4EsUurKkdi6V5ScSVGHB5y8ztGF1ebLpBf9QsRFKd0kVa8vi8FhUBaj783TCv54wotmpbPz4JndIKxpKdICdyIOZL58%2BU%2FYxcuw%3D%3D HTTP/1.1" 200 0
+2020-12-23 17:41:08,535 INFO    Thread-15 :1623 [upload_job.py:push():131] Uploaded file /Users/stephanehatgiskessell/Desktop/RL_research_algs/PPO/wandb/run-20201223_174104-1sgyo64a/files/wandb-summary.json
+2020-12-23 17:41:08,825 DEBUG   Thread-5  :1623 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-23 17:41:08,939 DEBUG   Thread-5  :1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/stephanehk/PPO_1/1sgyo64a/file_stream HTTP/1.1" 200 None
+2020-12-23 17:41:09,028 DEBUG   Thread-5  :1623 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/stephanehk/PPO_1/1sgyo64a/file_stream HTTP/1.1" 200 None
+2020-12-23 17:41:09,032 INFO    MainThread:1623 [internal.py:handle_exit():138] Internal process exited

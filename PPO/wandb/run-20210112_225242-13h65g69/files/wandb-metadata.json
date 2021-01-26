@@ -1,0 +1,16 @@
+{
+    "os": "Darwin-19.6.0-x86_64-i386-64bit",
+    "python": "3.6.12",
+    "heartbeatAt": "2021-01-13T03:52:43.237875",
+    "startedAt": "2021-01-13T03:52:42.349629",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "codePath": "Gym_PPO.py",
+    "program": "Gym_PPO.py",
+    "host": "Stephanes-MBP.fios-router.home",
+    "username": "stephanehatgiskessell",
+    "executable": "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/bin/python3"
+}

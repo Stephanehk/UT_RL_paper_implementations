@@ -1,0 +1,49 @@
+Episode reward: -29.654949378588803
+Episode reward: -66.13134779576339
+Episode reward: -72.27341292627943
+Episode reward: -72.38933050769002
+Episode reward: -73.08485535284177
+Episode reward: -76.05560821135785
+Episode reward: -74.59892667007254
+Episode reward: -125.48034136071807
+Episode reward: -126.24356328813575
+Episode reward: -120.22811656640025
+Episode reward: -128.800133947178
+Episode reward: -118.75258460163764
+Episode reward: -122.6438131591178
+Episode reward: -113.67921733662317
+Episode reward: -115.48865119894332
+Episode reward: -127.52879328405119
+Episode reward: -122.00982980335985
+Episode reward: -127.76512310599301
+Episode reward: -115.2329423250898
+Episode reward: -126.05781299448577
+Episode reward: -115.85430073659964
+Episode reward: -122.9466480879263
+Episode reward: -122.04008589106785
+Episode reward: -127.61342984784355
+Episode reward: -119.42430066069257
+Episode reward: -116.46569288168246
+Episode reward: -123.36999087726682
+Episode reward: -121.95544718275326
+Episode reward: -122.04717718344814
+Episode reward: -123.92553444736444
+Episode reward: -118.73536869263063
+Episode reward: -119.98383527970175
+Episode reward: -123.61012482106659
+Episode reward: -118.29621345039472
+Episode reward: -119.05132845067274
+Episode reward: -126.31176312891482
+Episode reward: -124.62956008161858
+Episode reward: -121.87554050100518
+Episode reward: -117.06088551177712
+Episode reward: -123.05234704311692
+Episode reward: -121.81745313880722
+Traceback (most recent call last):
+  File "PPO.py", line 148, in <module>
+    train_PPO()
+  File "PPO.py", line 142, in train_PPO
+    optimizer.step()
+  File "/Users/stephanehatgiskessell/opt/anaconda3/envs/devenv/lib/python3.6/site-packages/torch/optim/adam.py", line 107, in step
+    p.data.addcdiv_(-step_size, exp_avg, denom)
+KeyboardInterrupt
